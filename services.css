@@ -1,0 +1,128 @@
+.navbar-brand img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .hero-banner {
+    background: linear-gradient(to right, #198754, #28a745);
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  .hero-banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  .stats {
+    background: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .stats .stat {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #198754;
+  }
+  
+  .about-section {
+    padding: 60px 0;
+  }
+  .navbar-nav .nav-link::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: 5px;
+width: 0%;
+height: 2px;
+background-color: #216d10; 
+transition: width 0.3s;
+}
+.navbar {
+padding: 1rem 2rem;
+}
+
+.navbar-brand img {
+width: 60px;
+height: 60px;
+}
+
+.navbar-nav .nav-link {
+font-size: 1.2rem;
+padding: 0.8rem 1rem;
+position: relative;
+color: #000;
+transition: color 0.3s;
+}
+
+.navbar-nav .nav-link::after {
+content: '';
+position: absolute;
+left: 0;
+bottom: 5px;
+width: 0%;
+height: 2px;
+background-color: #216d10; 
+transition: width 0.3s;
+}
+
+.navbar-nav .nav-link.active::after {
+width: 100%;
+}
+
+.navbar-nav .nav-link:hover::after {
+width: 100%;
+}
+
+.navbar-toggler-icon {
+width: 35px;
+height: 35px;
+}
+.about-img{
+width:350px;
+height:350px;
+}
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 50px;
+}
+
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 30px;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.service-icon {
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.card-body {
+  padding: 30px;
+}

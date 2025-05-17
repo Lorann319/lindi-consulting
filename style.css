@@ -1,0 +1,23 @@
+/* Stili i home-it dhe aboutit */
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.btn-success {
+  background-color: #197d31;
+  border-color: #076e1f;
+}
+
+.modal-header.bg-success {
+  background-color: #28a745;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
